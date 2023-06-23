@@ -1,0 +1,103 @@
+/*====start media-content====*/ 
+
+.slider-bord{
+    padding: 100px 0;
+    background: #FFF1DE;
+    margin-bottom: 100px;
+    .video-carousel{
+        .video-headline{
+            h2{
+                font-size: 42px;
+                font-weight: 700;
+                margin-bottom: 50px;
+            }
+        }
+        .carousel-group{
+            .slideshow{
+                .slideshow-slide{
+                    position: relative;
+                    .asset-container{
+                        img{
+                            width: 815px;
+                            height: 515px;
+                        }
+                        button{
+                            width: 60px;
+                            height: 60px;
+                            border: none;
+                            border-radius: 50%;
+                            position: absolute;
+                            top: 216px;
+                            right: 629px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+  .slideshow {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slideshow-slide {
+    flex: 0 0 calc(100% - 20px);
+    margin-right: 20px;
+
+  }
+  
+  .slideshow-slide:last-child {
+    margin-right: 0;
+  }
+
+/*====end media-content====*/ 
+
+
+
+/*====photo-submit-section====*/ 
+
+.photo-submit-section{
+    .photo-submit-slider {
+        position: relative;
+    }
+        .slide-item{
+            padding: 20px;
+            img {
+                width: 100%;
+              }
+              p {
+                font-size: 25px;
+            }
+        }
+        .prevbutton,
+        .nexbutton {
+          position: absolute;
+          top: 200px;
+          transform: translateY(-50%);
+          background: none;
+          border: none;
+          font-size: 24px;
+          color: #000;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          background: #ddd;
+        }
+        .prevbutton {
+            left: -80px;
+          }
+        
+          .nexbutton {
+            right: -80px;
+          }
+        }
+      
+
+
+
+ 
+
+  

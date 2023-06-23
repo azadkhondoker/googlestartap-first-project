@@ -1,0 +1,112 @@
+
+/*====  start footer area  css ====*/
+.footer-area{
+    .footer-top{
+        .social-icon{
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 24px;
+            h4 {
+                margin-right: 36px;
+                font-size: 16px;
+                font-weight: 500;
+                color: black;
+                align-self: center;
+            }
+            .social-link{
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 24px;
+                width: 48px;
+                height: 48px;
+                margin-right: 8px;
+                border-radius: 50%;
+                &:hover{
+                    background: #ddd;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+    .footer-middle{
+        padding: 40px 0px 28px;
+        border-bottom: 1px solid #ddd;
+        ul{
+            li{
+                margin: 8px 0px;
+                a{
+                    font-weight: 500;
+                    font-size: 16px;
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+                .link{
+                    margin-left: -10px;
+                    margin-bottom: 10px;
+                    &:hover{
+                        background: #ddd;
+                    }
+                }
+                p{
+                    margin-bottom: 20px;
+                }
+                .secondary-btn{
+                    color: $color-primary;
+                    &:hover{
+                        background: #ddd;
+                    }
+                }
+            }
+        }
+    }
+    .footer-bottom{
+        ul{
+            li{
+                .logo{
+                    font-size: 30px;
+                    font-weight: 500;
+                    color: $color-soft-dark;
+                    margin-right: 40px;
+                }
+            }
+        }
+        a.link {
+            padding: 15px;
+            font-weight: 400;
+            color: $color-soft-dark;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}
+
+/*====  End footer area  css ====*/
+
+/*======footer-v1-css======*/
+/*======= Footer =======*/
+.footer-content {
+    
+}
+.footer-area{
+    padding-bottom: 25px;
+    .footer-content{
+        border-top: 1px solid #ddd;
+        padding-top: 15px;
+        .footer-left{
+             a {
+                color: #000;
+                font-size: 20px;
+                padding: 0 12px;
+            }
+        }
+        .feature-menu{
+            .fotlist {
+                font-size: 16px;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+  

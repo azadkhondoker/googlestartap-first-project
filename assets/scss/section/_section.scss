@@ -1,0 +1,325 @@
+/*==== start community-section-css ====*/
+.community-section{
+    background: $color-alt-dark;
+    padding-top: 120px;
+    position: relative;
+    .community-feature{
+        position: relative;
+        z-index: 100;
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-top: 60px;
+        &::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            opacity: 0.7;
+            z-index: -1;
+            border-radius: 10px;
+        }
+        
+        .community-text{
+            margin-top: 50px;
+            margin-left: 20px;
+            h5,h3,p,a{
+                color: $color-white;
+            }
+            h5{
+                font-size: 11px;
+                font-weight: 500;
+                margin-bottom: 10px;
+                i{
+                    font-size: 16px
+                }
+            }
+            h3{
+                font-size: 36px;
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 400;
+                margin-top: 14px;
+            }
+            .border-btn{
+                font-size: 16px;
+                font-weight: 500;
+                padding: 8px 24px;
+                border: 1.5px solid $color-white;
+                border-radius: 5px;
+                &:hover{
+                    color: $color-primary;
+                    border: 1.5px solid $color-primary;
+                    background-color: $color-white;
+                }
+            }
+        }
+    }
+    .back-bacground{
+        width: 100%;
+        height: 480px;
+        top: 332px;
+        position: absolute;
+        background-color: $color-soft-green;
+    }
+    .image-box{
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        transition: 0.3s;
+        &:hover{
+            -webkit-box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+            box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+        }
+        .image-box-image{
+            img{
+                width: 100%;
+                height: 320px;
+                object-fit: cover;
+                border-radius: 10px 10px 0px 0px;
+                -webkit-clip-path: polygon(0 0,100% 0,100% calc(100% - 32px),0 calc(100% - 16px));
+                clip-path: polygon(0 0,100% 0,100% calc(100% - 32px),0 calc(100% - 16px));
+            }
+        }
+        .image-box-content {
+            padding: 0px 24px;
+            margin-top: 16px;
+            h4{
+                font-size: 11px;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+            h2{
+                font-size: 28px;
+                font-weight: 400;
+                letter-spacing: initial;
+                margin-top: 16px;
+            }
+            p {
+                margin-top: 16px;
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            .image-box-footer {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 32px;
+                padding-bottom: 24px;
+                h4{
+                    i{
+                        font-size: 24px;
+                        padding: 5px;
+                    }
+                }
+                span{
+                    i{
+                        font-size: 16px;
+                        font-weight: 500;
+                        color:$color-primary;
+                        padding: 16px;
+                        border-radius: 50%;
+                        &:hover{
+                            background:rgba(26,115,232,.04);
+                            transition: 0.8s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*==== end community-section-css ====*/
+
+
+
+
+/*====  start support Section css ====*/
+
+.support-section{
+    background: $color-alt-soft-dark;
+    padding: 90px 0;
+    .common-head{
+        margin-bottom: 120px;
+       h2,h5{
+        color: $color-white;
+       }
+    }
+    .image-box{
+        background: $color-white;
+        border-radius: 10px;
+        .image-box-image{
+            width: 100%;
+            height: 370px;
+            border-radius: 10px 10px 0px 0px;
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 93%);
+            clip-path: polygon(0 0, 100% 0, 100% 96%, 0 93%);
+            img{
+                width: 92%;
+                height: 320px;
+                object-fit: cover;
+                border-radius: 10px 0px 0px 0px;
+            }
+        }
+        .image-box-content {
+            h2{
+                font-size: 48px;
+                font-weight: 400;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 500;
+            }
+            padding: 24px;
+            .border-btn{
+                padding: 12px 24px;
+                border: 1px solid #ddd;
+                color: $color-primary;
+                margin: 16px 0px 10px;
+                &:hover{
+                    background: $color-soft-blue;
+                }
+            }
+        }
+    }
+}
+
+
+/*====  End support Section  css ====*/
+
+
+/*====  star  feature Section  css ====*/
+.feature-area{
+    background-color: $color-alt-soft-dark;
+    padding-bottom:120px;
+    .feature-wraper{
+        .feature-image{
+            h5{
+                font-size: 14px;
+                font-weight: 500;
+                color: $color-white;
+            }
+            img{
+                border-radius: 10px 10px 0px 0px;
+                width: 100%;
+            }
+        }
+        .feature-para{
+            background-color: #000;
+            padding: 36px 0 60px;
+            border-radius: 0px 0px 10px 10px;
+            p{
+                color: $color-white;
+                font-size: 14px;
+                font-weight: 400;
+                margin-bottom: 16px;
+            }
+            h4{ 
+                font-size: 36px ;
+                font-weight: 400;
+                color: $color-white;
+            }
+            .hover-btn{
+                background: none;
+                border: none;
+                color: $color-white;
+                padding: 5px;
+                margin: 8px 0;
+                &:hover{
+                    background: $color-white;
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+}
+
+.image-boxes{
+    .image-box{
+        background: $color-white;
+        border-radius: 12px 12px 10px 10px;
+        img{
+            border-radius: 10px 10px 0px 0px;
+        }
+        .image-box-content{
+            padding: 24px;
+            h2{
+                font-weight: 400;
+                margin-bottom: 20px;
+                margin: 20px 0px;
+            }
+            p{
+                font-size: 20px;
+                font-weight: 400;
+            }
+            .secondary-btn{
+                margin: 24px 0px;
+                padding: 13px 13px 13px 13px;
+                font-size: 16px;
+                font-weight: 500;
+                color: $color-primary;
+                &:hover{
+                    background: $color-soft-blue;
+                }
+            }
+        }
+    }
+}
+
+/*====  end feature Section  css ====*/
+
+
+
+/*====  Start stories-filter css ====*/
+.stories-filter{
+    .section-head{
+        p{
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+        h3{
+            font-size: 48px;
+            font-weight: 400;
+        }
+    }
+    .image-boxes{
+        .image-box{
+            border: 1px solid #ddd;
+            margin-bottom: 28px;
+        }
+    }
+}
+
+/*====  end stories-filter css ====*/
+
+
+/*====  end stories-promot css ====*/
+.story-promot{
+    background: $color-primary;
+    .promo-image{
+        img{}
+    }
+    .promo-para{
+        h3{
+            font-size: 24px;
+            font-weight: 400;
+            color: $color-white;
+        }
+        .fill-btn{
+            margin-top: 24px;
+        }
+    }
+}
+
+/*====  end stories-promot css ====*/
+
+
+
+ 

@@ -1,0 +1,54 @@
+// (max-width: 1599px)
+@include respond-below(c1600) {}
+
+// (max-width: 1399px)
+@include respond-below(xxl) {
+	
+}
+
+// (max-width: 1367)
+@include respond-below(c1367) {
+
+}
+
+// (max-width: 1199px)
+@include respond-below(xl) {
+
+}
+
+
+// (min-width: 992px) and (max-width: 1199px)
+@include respond-between(lg, xl) {}
+
+// (min-width: 768px) and (max-width: 1199px)
+@include respond-between(md, xl) {}
+
+// (max-width: 991px)
+@include respond-below(lg) {
+ 
+	
+}
+
+// (min-width: 768px) and (max-width: 991px)
+@include respond-between(md, lg) {}
+
+// (max-width: 767px)
+@include respond-below(md) {
+   
+}
+
+// (max-width: 575px)
+@include respond-below(sm) {
+	
+}
+
+// (min-width: 576px) and (max-width: 767px)
+@include respond-between(sm, md) {}
+
+// (max-width: 424px)
+@include respond-below(xs) {
+	
+}
+
+// (min-width: 425px)
+@include respond-above(xs) {}

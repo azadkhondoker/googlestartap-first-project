@@ -1,0 +1,23 @@
+/*==== iconic box css star ====*/
+.iconic-box-area{
+    .icon-box{
+        justify-content: space-between;
+        padding: 32px;
+        border: 1px solid #ddd;
+        margin-bottom: 24px;
+        .icon{
+            svg{}
+        }
+        .content{
+            align-self: center;
+            h4{
+                margin-right: 70px;
+            }
+            .arrow-btn{
+            
+            }
+        }
+    }
+}
+
+/*==== iconic box css end ====*/
