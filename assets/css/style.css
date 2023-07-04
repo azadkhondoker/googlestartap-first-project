@@ -1109,6 +1109,21 @@ textarea {
   margin-right: 70px;
 }
 /*==== iconic box css end ====*/
+/*==== start product-catalog css ====*/
+.product-catalog-area .catalog-wrapper .single-product {
+  padding: 10px;
+  margin-right: 10px;
+}
+.product-catalog-area .catalog-wrapper .single-product img {
+  border-radius: 20px;
+}
+.product-catalog-area .catalog-wrapper .single-product h5 {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/*==== ent product-catalog css ====*/
 /*==== start community-section-css ====*/
 .community-section {
   background: var(--color-alt-dark);
@@ -1456,6 +1471,30 @@ textarea {
 }
 .description-area .wedget-right .icons .social-icon {
   padding-right: 15px;
+}
+.description-area .wedget-right .story-wrapper .single-story {
+  padding: 10px 11px;
+  background: #F8F9FA;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.description-area .wedget-right .story-wrapper .single-story img {
+  width: 66px;
+  height: 54px;
+  margin-right: 10px;
+}
+.description-area .wedget-right .story-wrapper .single-story h5 {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+.description-area .wedget-right .story-wrapper .single-story span {
+  padding: 0 10px 0 10px;
+}
+.description-area .wedget-right .story-wrapper .single-story span i {
+  font-size: 24px;
+  font-weight: 500;
 }
 
 /*====  start footer area  css ====*/

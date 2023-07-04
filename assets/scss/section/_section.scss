@@ -381,6 +381,32 @@
                 padding-right: 15px;
             }
          }
+        .story-wrapper{
+            .single-story{
+                padding: 10px 11px;
+                background:#F8F9FA;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                img{
+                    width: 66px;
+                    height: 54px;
+                    margin-right: 10px;
+                }
+                h5{
+                    font-size: 14px;
+                    font-weight: 500;
+                    letter-spacing: 0.25px;
+                    line-height: 20px;
+                }
+                span{
+                    i{
+                        font-size:24px;
+                        font-weight: 500;
+                    }
+                    padding: 0 10px 0 10px;
+                }
+            }
+        }
     }
 }
 
