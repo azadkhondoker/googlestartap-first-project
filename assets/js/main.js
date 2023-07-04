@@ -57,45 +57,25 @@
         }
     }
 
-    // ===== 03. Scroll To Top
-    function scrollToTop() {
-        var $scrollUp = $('#fixed-scroll-top'),
-            $footerScrollUp = $('#scroll-top'),
-            $lastScrollTop = 0,
-            $window = $(window);
+    /*==== scroll to top ====*/
+    let mybutton = document.getElementById("scroll-top");
 
-        $window.on('scroll', function () {
-            var st = $(this).scrollTop();
-            if (st > $lastScrollTop) {
-                $scrollUp.removeClass('show');
-            } else {
-                if ($window.scrollTop() > 200) {
-                    $scrollUp.addClass('show');
-                } else {
-                    $scrollUp.removeClass('show');
-                }
-            }
-            $lastScrollTop = st;
-        });
-
-        $scrollUp.on('click', function (evt) {
-            $('html, body').animate({ scrollTop: 0 }, 300);
-            evt.preventDefault();
-        });
-        $footerScrollUp.on('click', function (evt) {
-            $('html, body').animate({ scrollTop: 0 }, 300);
-            evt.preventDefault();
-        });
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
     }
-
-    // ===== 04. Video Popup
-    function videoPopup() {
-        $('.popup-video').each(function () {
-            $(this).magnificPopup({
-                type: 'iframe',
-            });
-        });
+   
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
     }
+    
+    /*==== scroll to top ====*/
 
     /*---------------------
 	=== DOCUMENT READY  ===

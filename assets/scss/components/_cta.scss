@@ -15,6 +15,13 @@
          }
         }
     }
+    .btn{
+        font-size: 16px;
+        color: $color-primary;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
 }
 
 /*==== ent product-catalog css ====*/

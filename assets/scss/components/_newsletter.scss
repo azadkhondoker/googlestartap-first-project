@@ -1,0 +1,23 @@
+/*==== start newsletter css ====*/
+.newsletter-area{
+    .news-wrapper{
+        background-color:#F8F9FA;
+        padding: 60px;
+        .newsletter-content{
+            h2{
+                margin: 16px 0;
+            }
+            .border-btn{
+                border: 2px solid $color-primary;
+                color: $color-primary;
+                padding: 6px 18px;
+                margin-top: 24px;
+                &:hover{
+                    color: $color-white;
+                    background: $color-primary;
+                }
+            }
+        }
+    }
+}
+/*==== end newsletter css ====*/
