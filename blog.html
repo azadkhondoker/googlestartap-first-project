@@ -499,56 +499,7 @@
         <script src="assets/js/slick.min.js"></script>
         <script src="assets/js/main.js"></script>
         <script>
-      document.addEventListener("DOMContentLoaded", function() {
-  var slideshow = document.querySelector(".slideshow");
-  var slideWidth = slideshow.offsetWidth;
-  var slides = slideshow.querySelectorAll(".slideshow-slide");
-  var totalSlides = slides.length;
-  var currentIndex = 0;
-
-  function updateSliderPosition() {
-    var translateX = -currentIndex * slideWidth;
-    slideshow.style.transform = "translateX(" + translateX + "px)";
-  }
-
-  function nextSlide() {
-    currentIndex++;
-    if (currentIndex >= totalSlides) {
-      currentIndex = 0;
-    }
-    updateSliderPosition();
-  }
-
-  function prevSlide() {
-    currentIndex--;
-    if (currentIndex < 0) {
-      currentIndex = totalSlides - 1;
-    }
-    updateSliderPosition();
-  }
-
-  function handleNextClick() {
-    nextSlide();
-  }
-
-  function handlePrevClick() {
-    prevSlide();
-  }
-
-  var nextBtn = document.createElement("button");
-  nextBtn.classList.add("next-btn");
-  nextBtn.innerHTML = "Next";
-  nextBtn.addEventListener("click", handleNextClick);
-
-  var prevBtn = document.createElement("button");
-  prevBtn.classList.add("prev-btn");
-  prevBtn.innerHTML = "Previous";
-  prevBtn.addEventListener("click", handlePrevClick);
-
-  var sliderContainer = document.querySelector(".slider-bord");
-  sliderContainer.appendChild(nextBtn);
-  sliderContainer.appendChild(prevBtn);
-});
+      
         </script>
     </body>
 </html>

@@ -321,5 +321,70 @@
 /*====  end stories-promot css ====*/
 
 
+/*==== start description-area css ====*/
+.description-area{
+    .description-content{
+        p{
+            font-size: 18px;
+            color:$color-light-dark;
+            line-height: 36px;
+        }
+        .link{
+            color: $color-primary;
+            text-decoration: underline;
+        }
+        span{
+            font-size: 18px;
+        }
+        h2{
+            color: $color-light-dark;
+            font-size: 40px;
+            font-weight: 48px;
+        }
+        h6{
+            font-size: 14px;
+            color: $color-light-dark;
+        }
+        img{
+            border-radius: 20px;
+        }
+    }
+    .wedget-right{ 
+        margin-left: 100px;
+         h3{
+            font-size: 24px;
+            font-weight: 500;
+            color: $color-light-dark;
+         }
+         .border-left{
+            font-size: 16px;
+            line-height: 20px;
+            border-left: 4px solid $color-soft-blue;
+            padding-left: 10px;
+
+         }
+         img{
+            border-radius: 20px;
+         }
+         h6{}
+         p{}
+         .btn-v2{
+            font-size: 16px;
+            color: $color-primary;
+            &:hover{
+                border-bottom: 1px solid $color-primary;
+            }
+         }
+         .icons{
+            margin-top: 20px;
+            .social-icon{
+                padding-right: 15px;
+            }
+         }
+    }
+}
+
+
+
 
  
